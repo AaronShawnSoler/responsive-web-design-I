@@ -1,4 +1,4 @@
-@media only screen and (max-width: 816px) {
+@media only screen and (max-width: 800px) {
 	.container {
 		max-width: 95%;
 	}
@@ -21,7 +21,7 @@
 	}
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 500px) {
 	.flex-nav img {
 		padding-bottom: 16px;
 	}
