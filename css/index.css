@@ -155,6 +155,10 @@ h5 {
 	margin: 0 auto;
 }
 
+header {
+	padding-bottom: 64px;
+}
+
 .flex-nav {
 	display: flex;
 	justify-content: space-between;
@@ -204,4 +208,47 @@ h5 {
 	color: black;
 	border: 1px solid black;
 	padding: 3px 45px;
+}
+
+.info-section {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: black;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.info-section img {
+	width: 100%;
+	height: auto;
+}
+
+.info {
+	padding: 32px 0;
+}
+
+.features,
+.about {
+	width: 49%;
+}
+
+.services,
+.product,
+.vision {
+	width: 32%;
+}
+
+.contact-section {
+	padding: 32px 0;
+}
+
+.number {
+	display: inline-block;
+	padding: 16px 0;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px 0;
 }
