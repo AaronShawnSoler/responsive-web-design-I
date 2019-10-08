@@ -24,6 +24,7 @@
 	.services img {
 		width: 48%;
 		height: auto;
+		align-self: start;
 	}
 }
 
