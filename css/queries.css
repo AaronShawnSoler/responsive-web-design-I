@@ -2,18 +2,21 @@
 	.container {
 		max-width: 95%;
 	}
+
 	.flex-nav {
 		flex-direction: column-reverse;
 		margin-bottom: 0;
 	}
 
 	.nav-items {
-		flex-grow: 2;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
 		margin-top: 32px;
 	}
 
 	.nav-items li {
-		padding-left: 70px;
+		padding: 0;
 	}
 
 	.hero img {

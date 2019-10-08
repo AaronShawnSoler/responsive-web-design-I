@@ -1,14 +1,18 @@
 @media only screen and (max-width: 800px) {
-	header {
+	.flex-nav {
 		flex-direction: column-reverse;
+		margin-bottom: 0;
 	}
 
-	header nav {
+	.nav-items {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
 		margin-top: 32px;
 	}
 
-	header nav ul li {
-		padding-left: 70px;
+	.nav-items li {
+		padding: 0;
 	}
 
 	.services-section,
@@ -28,40 +32,31 @@
 		padding: 0 2%;
 	}
 
-	header {
-		flex-direction: column-reverse;
+	.flex-nav img {
+		padding-bottom: 16px;
 	}
 
-	header nav {
+	.nav-items {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.nav-items {
+		flex-grow: 2;
 		margin-top: 0;
-	}
-
-	header nav ul {
 		width: 100vw;
 	}
 
-	header nav ul li {
+	.nav-items li {
 		padding: 16px 0;
+		width: 100%;
 		text-align: center;
 		border-bottom: 1px solid #555;
 	}
 
-	header nav ul li:first-child {
+	.nav-items li:first-child {
 		border-top: 1px solid #555;
-		padding: 16px 0;
-	}
-
-	header img {
-		padding-bottom: 16px;
-	}
-
-	nav ul li {
-		display: block;
-		padding: 5px 20px;
-	}
-
-	nav ul li:nth-child(1) {
-		padding: 5px 20px;
 	}
 
 	.features {
